@@ -1,0 +1,113 @@
+* {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  #TopBar {
+    border: solid rgb(5, 39, 143);
+    background-color: rgb(5, 46, 168);
+    margin-left: -10px;
+    margin-top: -10px;
+    width: 1532px;
+    height: 70px;
+    margin-bottom: 13px;
+  }
+  #Top1 {
+    height: 80%;
+    width: 1100px;
+    margin-left: 220px;
+    display: grid;
+    grid-template-rows: 20% 20% 60%;
+  }
+  #Top1 h2 {
+    color: white;
+  }
+  #TopBar > #Top1 > div > img {
+    border-radius: 30px;
+    height: 35px;
+    width: 35px;
+    margin-top: 5px;
+    border: solid rgb(4, 40, 146);
+    margin-left: 30px;
+  }
+  #TopBar > #Top1 > #pic {
+    height: auto;
+    margin-left: 850px;
+  }
+  #TopBar > #Top1 > div h1 {
+    color: white;
+  }
+  body > h2 {
+    text-align: center;
+  }
+  #container {
+    display: grid;
+    width: 30%;
+    border: 0px solid black;
+    margin: auto;
+    margin-top: 30px;
+  }
+  #container > form {
+    display: grid;
+    grid-template-columns: 350px;
+    grid-template-rows: repeat(3, auto);
+    margin: auto;
+    margin-bottom: -50px;
+  }
+  #mail,
+  #password {
+    height: 25px;
+
+    border: solid rgb(4, 39, 142);
+    margin-top: 10px;
+    border-width: 1px;
+  }
+  form > label {
+    margin-top: 5px;
+  }
+  #login {
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    background-color: rgb(6, 39, 140);
+    margin-top: 30px;
+    border: none;
+  }
+  #letter > p {
+    text-align: center;
+    text-decoration: none;
+  }
+  #letter > p > a {
+    text-decoration: none;
+    color: blue;
+  }
+
+  #Mark {
+
+    display: grid;
+    width: 370px;
+    height: 80px;
+    margin: auto;
+    margin-top: 25px;
+    display: grid;
+    margin-top: 70px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  #Mark > div {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+    border-width: 1px;
+    border-width: 1px;
+    margin: auto;
+  }
+  #Mark > div > img {
+    height: 50px;
+    width: 50px;
+  }
+  body > p {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 12px;
+  }
+  .class {
+    text-align: center;
+  }
